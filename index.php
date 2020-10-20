@@ -4,7 +4,7 @@ require_once 'Bicycle.php';
 
 
 $bike = new Bicycle('red', 4);
-
+du camion
 
 
 
@@ -35,7 +35,7 @@ var_dump ($truck1);
 
 echo $truck1->filling() . '<br>';
 echo $truck1->forward();
-echo '<br> Vitesse de la voiture : ' . $truck1->getCurrentSpeed() . ' km/h' . '<br>';
+echo '<br> Vitesse du camion : ' . $truck1->getCurrentSpeed() . ' km/h' . '<br>';
 echo $truck1->brake();
-echo '<br> Vitesse de la voiture : ' . $truck1->getCurrentSpeed() . ' km/h' . '<br>';
+echo '<br> Vitesse du camion : ' . $truck1->getCurrentSpeed() . ' km/h' . '<br>';
 echo $truck1->brake();
